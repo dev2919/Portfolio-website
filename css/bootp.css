@@ -308,3 +308,17 @@ body{
     color: black;
     line-height: 1.6;
 }
+
+@media screen and (min-width: 400px) {
+  .child1 {
+    margin: auto;
+    width: 87vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .child1 {
+    margin: auto;
+    width: 98vw;
+  }
+}
