@@ -312,7 +312,7 @@ body{
 @media screen and (min-width: 400px) {
   .child1 {
     margin: auto;
-    width: 87vw;
+    width: 90vw;
   }
 }
 
