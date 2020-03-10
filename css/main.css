@@ -1,0 +1,196 @@
+@media (min-width: 840px) {
+  .main1 {
+    width: 100% !important;
+  }
+  body {
+    height: 100%;
+  }
+  body .container {
+    margin-left: 0 !important;
+    margin-bottom: 7%;
+  }
+  body .q_me .nme {
+    margin-left: -35px;
+  }
+  body .q_me .qk {
+    font-size: 17px;
+  }
+  body .links {
+    margin: 0px !important;
+    position: relative;
+    left: 29%;
+    min-width: 500px !important;
+  }
+  .wrk .card {
+    width: 139% !important;
+    height: 450px !important;
+    margin-bottom: 7%;
+  }
+  .wrk .card-body {
+    padding: 6%;
+    width: 50%;
+    text-align: justify;
+  }
+  .wrk .card-title {
+    font-size: 3rem;
+  }
+  .wrk .card-footer {
+    display: none !important;
+  }
+  .wrk .vst {
+    position: absolute;
+    width: 59%;
+    left: 48%;
+    top: 29px;
+    margin-bottom: 26px;
+  }
+  .wrk .shp {
+    position: absolute;
+    width: 41%;
+    left: 60%;
+    top: -16%;
+    margin-bottom: 26px;
+  }
+  .wrk .inst {
+    top: -11% !important;
+  }
+  .wrk .role {
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 34% !important;
+    width: 39%;
+    display: none;
+    height: 300px;
+  }
+  .wrk .rolee {
+    top: 17% !important;
+  }
+  .wrk .card-title .role {
+    top: 18%;
+  }
+  .wrk button {
+    display: inline-block;
+  }
+  .skl .card {
+    width: 191% !important;
+  }
+  .skl .pjt {
+    left: 8.3% !important;
+    display: block;
+  }
+  .skl .sklhd {
+    position: relative;
+    left: 0%;
+    top: 22px;
+  }
+  .skl .sk2 {
+    position: relative !important;
+    left: -1.5% !important;
+    top: -4px !important;
+  }
+  .skl .sk3 {
+    position: relative !important;
+    left: 0% !important;
+    top: -4px !important;
+  }
+  .skl img {
+    width: 15%;
+    margin: 25px;
+  }
+  .skl .css {
+    margin-bottom: 13%;
+  }
+  .skl .js {
+    margin-bottom: 11%;
+  }
+  .skl .rad-prog {
+    margin-left: 60px;
+    height: 250px;
+    border-bottom: 3px solid #cfcfcf;
+  }
+  .skl .rad_prog {
+    margin-left: 60px;
+    height: 250px;
+    border-bottom: 3px solid #cfcfcf;
+    width: 95% !important;
+  }
+  .skl .exp1 {
+    background-color: #2B2E33;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .skl .exp2 {
+    background-color: #37a0bb;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .skl .expln {
+    position: relative;
+    right: 79%;
+    top: 12%;
+  }
+  .skl p {
+    display: inline;
+    padding-bottom: 10px;
+  }
+  .abt_cnt {
+    height: 1420px;
+    color: white;
+    width: 100%;
+  }
+  .abt_cnt .objy {
+    width: 100%;
+    height: 609px;
+  }
+  .abt_cnt .container {
+    padding: 132px;
+    width: 64%;
+    margin: auto !important;
+    padding-top: 23px;
+  }
+  .abt_cnt .qk {
+    font-size: 1.2rem;
+  }
+  .abt_cnt strong {
+    font-family: 'Krona One';
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  .abt_cnt .name {
+    margin-left: 100px !important;
+  }
+  .abt_cnt .pimg {
+    background-image: url(dev.jpeg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 15px solid #1C1C1C;
+    border-bottom: 40px solid #1C1C1C;
+    position: relative;
+    left: 36%;
+  }
+  .abt_cnt .contct {
+    position: absolute;
+    top: 438px;
+    left: 12%;
+    z-index: 10;
+    /* text-align: center; */
+    font-size: 2rem;
+    font-family: 'Krona One';
+    margin: 8%;
+    color: black;
+    line-height: 1.6;
+  }
+  .abt_cnt .links {
+    margin-left: 8% !important;
+    margin-top: 14% !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
