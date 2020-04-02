@@ -11,7 +11,7 @@ let dark = () =>{
   {
     i=false;
     document.getElementById("hey").href = "../css/darkcol.css";
-    document.getElementById("shpd").src = "http://127.0.0.1:5500/shop2.png";
+    document.getElementById("shpd").src = "../shop2.png";
     document.getElementById('y').textContent='🌙';
     // document.getElementById("body_bg").style.backgroundColor = "#121212";
     // document.getElementById("body_bg").style.color = "white";
@@ -38,7 +38,7 @@ let dark = () =>{
     // document.getElementById("body_bg").style.color = "black";
     i=true;
     document.getElementById("hey").href = "../css/colors.css";
-    document.getElementById("shpd").src = "http://127.0.0.1:5500/shop.png";
+    document.getElementById("shpd").src = "../shop.png";
     document.getElementById('y').textContent='☀️';
 
   }
