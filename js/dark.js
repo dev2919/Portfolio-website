@@ -10,7 +10,7 @@ let dark = () =>{
   if(i==true)  
   {
     i=false;
-    document.getElementById("hey").href = "http://127.0.0.1:5500/css/darkcol.css";
+    document.getElementById("hey").href = "../css/darkcol.css";
     document.getElementById("shpd").src = "http://127.0.0.1:5500/shop2.png";
     document.getElementById('y').textContent='🌙';
     // document.getElementById("body_bg").style.backgroundColor = "#121212";
@@ -29,13 +29,15 @@ let dark = () =>{
     //     boxes[i].style.boxShadow = "0px 0px 24px -5px rgb(0, 0, 0)"
 
 
+    console.log(document.getElementById("hey").href);
+
 
     }
   else if(i == false){
     // document.getElementById("body_bg").style.backgroundColor = "#F1F1F1";
     // document.getElementById("body_bg").style.color = "black";
     i=true;
-    document.getElementById("hey").href = "http://127.0.0.1:5500/css/colors.css";
+    document.getElementById("hey").href = "../css/colors.css";
     document.getElementById("shpd").src = "http://127.0.0.1:5500/shop.png";
     document.getElementById('y').textContent='☀️';
 
