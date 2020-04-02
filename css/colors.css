@@ -1,0 +1,61 @@
+body{
+  background-color: #F1F1F1;
+}
+
+.navbar{
+  background-color: #f1f1f1!important;
+}
+
+.bb{
+  background-color: skyblue;
+}
+
+.card-footer{
+  background-color: white;
+}
+
+.pjt{
+  color: #8080809e;
+}
+
+.abt_cnt{
+  background-color: black;
+  color: white;
+}
+
+.objy{
+  background-color: #026C7C;
+}
+
+
+.contct{
+  color: black;
+}
+
+.vst_bg{
+  background-color: black;
+  color: white;
+
+}
+
+.vst_fttr{
+  color: white;
+  background-color: black;
+}
+
+.vst_role{
+  color: white;
+  background-color: black;
+}
+
+.shp_role{
+  background-color: white;
+  color:black ;
+   height: 300px;
+   width: 400px;
+}
+
+.shp_txt{
+  background-color: white;
+  color:black;
+}

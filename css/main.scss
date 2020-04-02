@@ -28,7 +28,7 @@ body{
     }
 
     .qk{
-      font-size: 17px;
+      font-size: 20px;
     }
 
   }
@@ -169,7 +169,7 @@ body{
   }
 
   .exp1{
-    background-color: #2B2E33;
+    background-color: #016FB9;
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -245,7 +245,7 @@ strong{
 .contct {
   position: absolute;
   top: 438px;
-  left: 12%;
+  left: 16%;
   z-index: 10;
   /* text-align: center; */
   font-size: 2rem;
@@ -255,10 +255,13 @@ strong{
   line-height: 1.6;
 }
 .links{
-  margin-left: 8% !important;
+  margin-left: 13% !important;
   margin-top: 14% !important;
 }
 }
-
+.cont_btn{
+  top: 90%;
+  left: 92%;
+}
 }
 

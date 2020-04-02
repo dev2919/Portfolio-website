@@ -1,15 +1,11 @@
-body{
-  background-color: #F1F1F1;
-}
+
 .name{
   font-size: 3rem;
   /* font-weight: bolder; */
   font-family: 'Krona One';
 } 
 
-.navbar{
-  background-color: #f1f1f1!important;
-}
+
 .card-title{
   font-family: 'Krona One';
   font-size: 30px;
@@ -36,7 +32,6 @@ body{
 .bb{
   min-height: 500px;
   width: 100%;
-  background-color: skyblue;
   margin-bottom: 10px;
 }
 
@@ -57,7 +52,6 @@ body{
 }
 
 .card-footer{
-  background-color: white;
   border: none;
   font-size: 15px;
   opacity: 0.5;
@@ -88,7 +82,7 @@ body{
 /*   background-color:green; */
   border-radius:50%;
   position:absolute;
-  border: solid 20px #2B2E33;
+  border: solid 20px #016FB9;
 }   
 
 #chart {
@@ -250,7 +244,6 @@ body{
       text-align: center;
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
-      color: #8080809e;
     }
 
     .sklhd{
@@ -283,13 +276,10 @@ body{
 }
 
 .abt_cnt{
-  background-color: black;
   min-height: 800px;
-  color: white;
 }
 
 .objy{
-  background-color: #026C7C;
   width: 93%;
   height: 510px;
   position: absolute;
@@ -305,7 +295,6 @@ body{
     font-size: 1.5em;
     font-family: 'Krona One';
     margin: 8%;
-    color: black;
     line-height: 1.6;
 }
 
@@ -369,3 +358,44 @@ strong{
   font-family: 'Krona One';
   margin-bottom: 30px !important;
 }
+
+.cont_btn{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  top: 86%;
+  left: 67%;
+}
+.toggle-btn{
+  position: relative;
+  border: 5px solid #BB86FC;
+  width:110px;
+  height:60px;
+  background-color:gray;
+  border-radius:35px;
+  transition:all 300ms ease-in-out;
+}
+
+.toggle-btn > .inner-circle{
+    width:50px;
+  height:50px;
+  background-color:white;
+  border-radius:50px;
+    transition:all 300ms ease-in-out;
+
+}
+
+.toggle-btn.active{
+  background:#272727;
+}
+
+.toggle-btn.active > .inner-circle{
+margin-left:50px;
+}
+
+span{
+  font-size: 28px;
+    margin: 5px;
+}
+
