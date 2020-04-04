@@ -31,7 +31,6 @@ let dark = () =>{
 
     console.log(document.getElementById("hey").href);
 
-
     }
   else if(i == false){
     // document.getElementById("body_bg").style.backgroundColor = "#F1F1F1";
