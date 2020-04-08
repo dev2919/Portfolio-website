@@ -8,11 +8,24 @@
   font-family: 'Krona One';
 } 
 
+body{
+  overflow-x: hidden;
+  
+}
 
 .card-title{
   font-family: 'Krona One';
   font-size: 30px;
 
+}
+
+.navbar-brand{
+  font-family: 'Krona One';
+  font-size: 37px;
+  /* width: 200px; */
+  position: relative;
+  /* top: 0px; */
+  left: 9%;
 }
 
 .qk,.card-footer{
@@ -142,37 +155,7 @@
     }
     
     
-    .rot1{
-    animation: spin 3s cubic-bezier(.8, 0, .2, 1) ;
-    animation-fill-mode: forwards;
-    }
-    
-    @keyframes spin {
-    100%{ transform: rotate(270deg);
-    }
-    
-    } 
-    .rot2{
-    animation: spin2 3s cubic-bezier(.8, 0, .2, 1) ;
-    animation-fill-mode: forwards;
-    }
-    
-    @keyframes spin2 {
-    100%{ transform: rotate(90deg);
-    }
-    
-    } 
-    
-    .rot3{
-    animation: spin3 3s cubic-bezier(.8, 0, .2, 1);
-    animation-fill-mode: forwards;
-    }
-    
-    @keyframes spin3 {
-    100%{ transform: rotate(180deg);
-    }
-    
-    } 
+   
     
     .c2{
     width: 140px;
@@ -406,4 +389,169 @@ span{
   font-family: 'Noto Color Emoji' !important;
 
 }
+
+/* .nav_shad{
+  box-shadow: 0px 14px 20px -28px rgba(0, 0, 0, 0.45);
+} */
+
+.nav-link{
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.dsp{
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
+#s_logo{
+  animation:fill 0.5s ease forwards 3s;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+#s_logo path:nth-child(1){
+  stroke-dasharray:735;
+  stroke-dashoffset:735;
+  animation:line-anim 2s ease forwards;
+}
+
+
+#s_logo path:nth-child(2){
+    stroke-dasharray:791;
+  stroke-dashoffset:791;
+   animation:line-anim 2s ease forwards 0.3s;
+
+}
+
+
+#s_logo path:nth-child(3){
+    stroke-dasharray:574;
+  stroke-dashoffset:574;
+    animation:line-anim 2s ease forwards 0.6s;
+
+}
+
+
+#s_logo path:nth-child(4){
+    stroke-dasharray:791;
+  stroke-dashoffset:791;
+    animation:line-anim 2s ease forwards 0.9s;
+
+}
+
+
+#s_logo path:nth-child(5){
+    stroke-dasharray:874;
+  stroke-dashoffset:874;
+    animation:line-anim 2s ease forwards 0.12s;
+
+}
+
+
+#s_logo path:nth-child(6){
+    stroke-dasharray:732;
+  stroke-dashoffset:732;
+   animation:line-anim 2s ease forwards 0.15s;
+}
+
+@keyframes line-anim{
+  to{
+  stroke-dashoffset:0;
+    
+  }
+}
+
+@keyframes fill{
+  0%{
+    fill:transparent;
+  }
+  to{
+  fill:#212529;
+  width: 249px;
+  top: 17%;
+  left: 31%;
+  }
+}
+
+#svv{
+  width: 99vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 5000;
+  background: #F1F1F1;
+  animation: place 0.5s ease forwards 3.6s;
+}
+
+@keyframes place{
+  to{
+    opacity: 0;
+    display: none !important;
+  }
+}
+
+#yo{
+  display: inline;
+  position: absolute;
+  top: 72%;
+  left: 78%;
+  z-index: 0;
+  height: 211px;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background: #f6fafd;
+  /* center the svg in the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* animate bb-8 to rotate and translate horizontally
+! the group makes it possible to transform the element from the bottom center
+*/
+.bb8-base {
+  animation: dash 0.8s infinite alternate cubic-bezier(0.645, 0.045, 0.55, 1);
+}
+@keyframes dash {
+  to {
+    transform: translate(50px) rotate(-20deg); /* starting values 0 translation -40 rotation */
+  }
+}
+
+/* animate the body of bb-8 to rotate
+! the rotation occurs from the center of the body
+*/
+.bb8-center {
+    position: absolute;
+  animation: rotate 0.8s infinite linear;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+#yo{
+  animation:frwd 10s infinite linear;
+}
+
+@keyframes frwd{
+  to{
+    transform:translateX(-1600px);
+  }
+}
+
+
 
