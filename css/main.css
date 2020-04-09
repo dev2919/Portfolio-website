@@ -24,62 +24,11 @@
     left: 29%;
     min-width: 500px !important;
   }
-  .active .rot1 {
-    -webkit-animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1);
-            animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1);
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-  }
-  @-webkit-keyframes spin {
-    100% {
-      -webkit-transform: rotate(270deg);
-              transform: rotate(270deg);
-    }
-  }
-  @keyframes spin {
-    100% {
-      -webkit-transform: rotate(270deg);
-              transform: rotate(270deg);
-    }
-  }
-  .active .rot2 {
-    -webkit-animation: spin2 3s cubic-bezier(0.8, 0, 0.2, 1);
-            animation: spin2 3s cubic-bezier(0.8, 0, 0.2, 1);
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-  }
-  @-webkit-keyframes spin2 {
-    100% {
-      -webkit-transform: rotate(90deg);
-              transform: rotate(90deg);
-    }
-  }
-  @keyframes spin2 {
-    100% {
-      -webkit-transform: rotate(90deg);
-              transform: rotate(90deg);
-    }
-  }
-  .active .rot3 {
-    -webkit-animation: spin3 3s cubic-bezier(0.8, 0, 0.2, 1);
-            animation: spin3 3s cubic-bezier(0.8, 0, 0.2, 1);
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-  }
-  @-webkit-keyframes spin3 {
-    100% {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
-    }
-  }
-  @keyframes spin3 {
-    100% {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
-    }
+  body #svv {
+    display: inline-block !important;
   }
   .wrk .card {
-    width: 139% !important;
+    width: 88vw !important;
     height: 450px !important;
     margin-bottom: 7%;
   }
@@ -255,6 +204,69 @@
   .cont_btn {
     top: 90%;
     left: 92%;
+  }
+}
+
+.active .rot1 {
+  -webkit-animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1);
+          animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+}
+
+.active .rot2 {
+  -webkit-animation: spin2 3s cubic-bezier(0.8, 0, 0.2, 1);
+          animation: spin2 3s cubic-bezier(0.8, 0, 0.2, 1);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes spin2 {
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+@keyframes spin2 {
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+.active .rot3 {
+  -webkit-animation: spin3 3s cubic-bezier(0.8, 0, 0.2, 1);
+          animation: spin3 3s cubic-bezier(0.8, 0, 0.2, 1);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes spin3 {
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes spin3 {
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
   }
 }
 /*# sourceMappingURL=main.css.map */

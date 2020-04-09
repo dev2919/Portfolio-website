@@ -4,9 +4,10 @@ body{
 }
 
 .navbar{
-  background-color: #121212!important;
+  background-color: #272727 !important;
   box-shadow: 0px 0px 24px -5px rgb(0, 0, 0);
 }
+
 .navbar-light{
   color: white !important;
 }
@@ -37,7 +38,7 @@ body{
 }
 
 .vst_bg{
-  background-color: #272727;
+  background-color: #202020;
   color: white;
   box-shadow: 0px 0px 24px -5px rgb(0, 0, 0);
 
@@ -45,30 +46,30 @@ body{
 
 .vst_fttr ,.shp_fttr{
   color: white;
-  background-color: #272727;
+  background-color: #202020;
 }
 
 .vst_role{
   color: white;
-  background-color: #272727 !important;
+  background-color: #202020 !important;
 }
 
 .shp_bg,.skill_crd{
-  background-color: #272727;
+  background-color: #202020;
   color: white;
   box-shadow: 0px 0px 24px -5px rgb(0, 0, 0);
 
 }
 
 .shp_role{
-  background-color: #272727 !important;
+  background-color: #202020 !important;
   color: white;
    height: 300px;
    width: 400px;
 }
 
 .shp_txt{
-  background-color: #272727 !important;
+  background-color: #202020 !important;
   color: white;
 }
 
@@ -90,7 +91,7 @@ body{
 }
 
 .qi2{
-  border-right:72px solid #272727 !important;
+  border-right:72px solid #202020 !important;
   border-top:72px solid transparent;
   border-left:72px solid transparent;
   border-bottom:72px solid transparent;
@@ -101,7 +102,7 @@ body{
   
   .qi1{
   border-right:72px solid transparent;
-  border-top:75px solid #272727 !important;
+  border-top:75px solid #202020 !important;
   border-left:72px solid transparent;
   border-bottom:72px solid transparent;
   /* transform: rotate(4deg); */
@@ -112,7 +113,7 @@ body{
   
   border-right:72px solid transparent;
   border-top:72px solid transparent;
-  border-left:75px solid #272727 !important;
+  border-left:75px solid #202020 !important;
   border-bottom:72px solid transparent;
   /* transform: rotate(4deg); */
   
@@ -122,12 +123,12 @@ body{
   border-right:72px solid transparent;
   border-top:72px solid transparent;
   border-left:72px solid transparent;
-  border-bottom:75px solid #272727;
+  border-bottom:75px solid #202020;
   transform: rotate(4deg);
   
   }
   .q2{
-    border-right:115px solid #272727 !important;
+    border-right:115px solid #202020 !important;
     border-top:115px solid transparent;
     border-left:115px solid transparent;
     border-bottom:115px solid transparent;
@@ -136,7 +137,7 @@ body{
   
   .q1{
     border-right:115px solid transparent;
-    border-top:118px solid #272727 !important;
+    border-top:118px solid #202020 !important;
     border-left:115px solid transparent;
     border-bottom:115px solid transparent;
     /* transform: rotate(4deg); */
@@ -147,7 +148,7 @@ body{
   
         border-right:115px solid transparent;
     border-top:115px solid transparent;
-    border-left:115px solid #272727 !important;
+    border-left:115px solid #202020 !important;
     border-bottom:115px solid transparent;
     /* transform: rotate(4deg); */
   
@@ -157,12 +158,12 @@ body{
       border-right:115px solid transparent;
     border-top:115px solid transparent;
     border-left:115px solid transparent;
-    border-bottom:115px solid #272727;
+    border-bottom:115px solid #202020;
     /* transform: rotate(4deg); */
   
   }
 
   .spl{
-    border-bottom: 73px solid #272727 !important;
+    border-bottom: 73px solid #202020 !important;
   }
 

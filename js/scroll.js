@@ -35,8 +35,10 @@ let shad = () =>{
 
 
 let hght = () =>{
-  let a = document.getElementsByClassName("main1")[0];
-  a.classList.remove("temp");
+  // let a = document.getElementsByClassName("main1")[0];
+  // a.classList.remove("temp");
+  document.getElementById("body_bg").style.overflowY="visible";
 }
 
 setTimeout(hght, 4500);
+

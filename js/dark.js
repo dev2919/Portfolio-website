@@ -13,6 +13,10 @@ let dark = () =>{
     document.getElementById("hey").href = "../css/darkcol.css";
     document.getElementById("shpd").src = "../shop2.png";
     document.getElementById('y').textContent='🌙';
+    document.getElementById("navu").classList.remove("navbar-light");
+    document.getElementById("navu").classList.add("navbar-dark");
+
+
     // document.getElementById("body_bg").style.backgroundColor = "#121212";
     // document.getElementById("body_bg").style.color = "white";
     
@@ -39,6 +43,10 @@ let dark = () =>{
     document.getElementById("hey").href = "../css/colors.css";
     document.getElementById("shpd").src = "../shop.png";
     document.getElementById('y').textContent='☀️';
+    document.getElementById("navu").classList.remove("navbar-dark");
+    document.getElementById("navu").classList.add("navbar-light");
+
+
 
   }
   return i;

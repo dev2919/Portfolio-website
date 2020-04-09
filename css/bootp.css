@@ -10,7 +10,8 @@
 
 body{
   overflow-x: hidden;
-  
+  overflow-y: hidden;
+  transition: all 0.3s linear ;
 }
 
 .card-title{
@@ -25,7 +26,7 @@ body{
   /* width: 200px; */
   position: relative;
   /* top: 0px; */
-  left: 9%;
+  left: 1.8%;
 }
 
 .qk,.card-footer{
@@ -284,21 +285,31 @@ body{
     line-height: 1.6;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
   .child1 {
+    margin-top: 31% !important;
     margin: auto;
-    width: 90vw;
+    width: 95vw;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .child1 {
     margin: auto;
     width: 98vw;
+    margin-top: 95% !important;
+
   }
+  #main_anim {
+    position: absolute;
+    width: 101vw !important;
+    height: 87vh !important;
+    margin-top: 11% !important;
+    margin: 0;
+}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 
   .cimg{
    display: none;
@@ -473,24 +484,27 @@ span{
   to{
   fill:#212529;
   width: 249px;
-  top: 17%;
-  left: 31%;
+  top: 70%;
+  left: 28%;
   }
 }
 
 #svv{
   width: 99vw;
   height: 100vh;
-  position: absolute;
+  position: absolute !important;
+  top: 0 !important;
   z-index: 5000;
   background: #F1F1F1;
   animation: place 0.5s ease forwards 3.6s;
+  display: none;
 }
 
 @keyframes place{
   to{
     opacity: 0;
-    display: none !important;
+  z-index: -10;
+
   }
 }
 
@@ -552,6 +566,7 @@ body {
     transform:translateX(-1600px);
   }
 }
+
 
 
 
