@@ -27,6 +27,28 @@
   body #svv {
     display: inline-block !important;
   }
+  @-webkit-keyframes fill {
+    0% {
+      fill: transparent;
+    }
+    to {
+      fill: #212529;
+      width: 249px;
+      top: 70.5%;
+      left: 28%;
+    }
+  }
+  @keyframes fill {
+    0% {
+      fill: transparent;
+    }
+    to {
+      fill: #212529;
+      width: 249px;
+      top: 70.5%;
+      left: 28%;
+    }
+  }
   .wrk .card {
     width: 88vw !important;
     height: 450px !important;
