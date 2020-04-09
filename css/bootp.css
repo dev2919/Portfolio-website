@@ -302,10 +302,10 @@ body{
   }
   #main_anim {
     position: absolute;
-    width: 101vw !important;
+    width: 100vw !important;
     height: 87vh !important;
     margin-top: 11% !important;
-    margin: 0;
+    margin: 1%;
 }
 }
 
