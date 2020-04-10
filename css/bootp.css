@@ -7,11 +7,15 @@
   /* font-weight: bolder; */
   font-family: 'Krona One';
 } 
+html {
+  scroll-behavior: smooth;
+}
 
 body{
   overflow-x: hidden;
   overflow-y: hidden;
   transition: all 0.3s linear ;
+  scroll-behavior: smooth;
 }
 
 .card-title{
@@ -310,6 +314,9 @@ body{
   #s_logo{
     width: 360px !important;
   }
+  .skill_crd{
+    padding-top: 65%;
+  }
 
   @keyframes fill{
     0%{
@@ -492,6 +499,25 @@ span{
   }
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 85px;
+  right: 35px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 
 #svv{
   width: 100vw;
@@ -573,4 +599,6 @@ body {
 
 
 
-
+.temp{
+  display: none;
+}

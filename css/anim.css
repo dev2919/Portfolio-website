@@ -4,6 +4,7 @@
   width: 82vw;
   height: 100vh;
   margin: 1%;
+  overflow: hidden;
 }
 
 .truck {
