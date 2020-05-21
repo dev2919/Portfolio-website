@@ -33,9 +33,7 @@ let shad = () =>{
     b.classList.remove("dsp");
   } 
 
-
-
- 
+ //idk why upload nahi hotaaa
     if (document.body.scrollTop > 3520 || document.documentElement.scrollTop > 3520) {
       mybutton.style.display = "block";
       Darkbutton.style.display = "none"
