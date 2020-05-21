@@ -20,7 +20,10 @@ body{
     margin-left: 0 !important;
     margin-bottom: 7%;
   }
-
+  #main_anim{
+    position: absolute;
+    bottom: 3% !important;
+  }
   .q_me{
 
     .nme{
@@ -38,6 +41,9 @@ body{
     position: relative;
     left: 29%;
     min-width: 500px !important;
+    a{
+      color: black !important;
+    }
   }
 
   #svv{
@@ -56,6 +62,8 @@ body{
   }
 }
 }
+
+
 
 
 .wrk{
@@ -96,6 +104,16 @@ body{
     top: -16%;
     margin-bottom: 26px;
   }
+
+  .wave{
+    position: absolute;
+    width: 41%;
+    left: 60%;
+    top: 4%;
+    margin-bottom: 26px;
+  }
+
+
 
   .inst{
     top: -11% !important;
@@ -274,13 +292,34 @@ strong{
 .links{
   margin-left: 13% !important;
   margin-top: 14% !important;
+  a{
+    color: white !important;
+  }
 }
 }
-.cont_btn{
-  top: 90%;
+.cont_btn {
+  top: 83%;
   left: 92%;
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 131px;
+  right: 44px;
+  z-index: 99;
+  font-size: 11px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 3rem;
+  color: black;
 }
+}
+
 
 .active{
   .rot1{

@@ -2,29 +2,31 @@
   font-family: 'Noto Color Emoji';
   src: url(https://gitcdn.xyz/repo/googlefonts/noto-emoji/master/fonts/NotoColorEmoji.ttf);
 }
-.name{
+
+.name {
   font-size: 3rem;
   /* font-weight: bolder; */
   font-family: 'Krona One';
-} 
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   overflow-x: hidden;
   overflow-y: hidden;
-  transition: all 0.3s linear ;
+  transition: all 0.3s linear;
   scroll-behavior: smooth;
 }
 
-.card-title{
+.card-title {
   font-family: 'Krona One';
   font-size: 30px;
 
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Krona One';
   font-size: 37px;
   /* width: 200px; */
@@ -33,60 +35,61 @@ body{
   left: 1.8%;
 }
 
-.qk,.card-footer{
+.qk,
+.card-footer {
 
   font-family: helvetica;
   line-height: 2;
 }
 
-.card-text{
+.card-text {
   font-weight: lighter;
   line-height: 2;
 
 }
 
-.qk{
+.qk {
   font-size: 15px;
 }
 
 
-.bb{
+.bb {
   min-height: 500px;
   width: 100%;
   margin-bottom: 10px;
 }
 
-.l{
+.l {
   font-size: 30px;
   margin-right: 60px;
 }
 
-.cimg{
+.cimg {
   background-image: url("./vastra.png");
   background-size: 200px;
   background-repeat: no-repeat;
   height: 100px;
-    margin: auto;
-    position: relative;
-    top: -30px;
-    left: 68px;
+  margin: auto;
+  position: relative;
+  top: -30px;
+  left: 68px;
 }
 
-.card-footer{
+.card-footer {
   border: none;
   font-size: 15px;
   opacity: 0.5;
   border: none;
   margin-bottom: 4px !important;
-  
+
 }
 
-.card{
+.card {
   /* box-shadow: 0px 0px 50px -20px rgba(0,0,0,0.45); */
   border: none;
 }
 
-.tap{
+.tap {
   border: #f79712c2 dashed 2px;
   border-radius: 50%;
   height: 100px;
@@ -97,153 +100,154 @@ body{
   bottom: -21px;
 }
 
-.c{
-  width:180px;
-  height:180px;
-/*   background-color:green; */
-  border-radius:50%;
-  position:absolute;
+.c {
+  width: 180px;
+  height: 180px;
+  /*   background-color:green; */
+  border-radius: 50%;
+  position: absolute;
   border: solid 20px #016FB9;
-}   
-
-#chart {
-         width:0;
-         height:0;
-         border-radius: 115px;
-         -moz-border-radius: 115px;
-         -webkit-border-radius: 115px;
-
-    position: absolute;
-    left: -51px;
-    top: -40px;
-    }
-    
-    .q2{
-      border-right:115px solid white !important;
-      border-top:115px solid transparent;
-      border-left:115px solid transparent;
-      border-bottom:115px solid transparent;
-     
-    }
-    
-    .q1{
-      border-right:115px solid transparent;
-      border-top:118px solid white !important;
-      border-left:115px solid transparent;
-      border-bottom:115px solid transparent;
-      /* transform: rotate(4deg); */
-    
-    }
-    
-    .q4{
-    
-          border-right:115px solid transparent;
-      border-top:115px solid transparent;
-      border-left:115px solid white !important;
-      border-bottom:115px solid transparent;
-      /* transform: rotate(4deg); */
-    
-    }
-    
-    .q3{
-        border-right:115px solid transparent;
-      border-top:115px solid transparent;
-      border-left:115px solid transparent;
-      border-bottom:115px solid white;
-      /* transform: rotate(4deg); */
-    
-    }
-    .ch2{
-    position: absolute;
-    left: 8px;
-    border-top:115px solid red !important;
-    }
-    
-    
-   
-    
-    .c2{
-    width: 140px;
-    height: 140px;
-    /*     background-color: red; */
-    position: absolute;
-    border-radius: 50%;
-    z-index: 10;
-    border: 20px #37A0BB solid;
-    
-    }
-    
-    
-    #chart2 {
-      width:0;
-      height:0;
-      border-radius: 115px;
-      -moz-border-radius: 115px;
-      -webkit-border-radius: 115px;
-    display:inline-block;
-    position: absolute;
-    left: -22px;
-    top: -23px;
-    }
-    
-    
-    .qi2{
-    border-right:72px solid white !important;
-    border-top:72px solid transparent;
-    border-left:72px solid transparent;
-    border-bottom:72px solid transparent;
-    transform: rotate(4deg);
-    
-    
-    }
-    
-    .qi1{
-    border-right:72px solid transparent;
-    border-top:75px solid white !important;
-    border-left:72px solid transparent;
-    border-bottom:72px solid transparent;
-    /* transform: rotate(4deg); */
-    
-    }
-    
-    .qi4{
-    
-    border-right:72px solid transparent;
-    border-top:72px solid transparent;
-    border-left:75px solid white !important;
-    border-bottom:72px solid transparent;
-    /* transform: rotate(4deg); */
-    
-    }
-    
-    .qi3{
-    border-right:72px solid transparent;
-    border-top:72px solid transparent;
-    border-left:72px solid transparent;
-    border-bottom:75px solid white;
-    transform: rotate(4deg);
-    
-    }
-
-    .pjt{
-      position: relative;
-      display: inline-block;
-      top: -177px;
-      left: 35%;
-      z-index: 100;
-      width: 90px;
-      text-align: center;
-      font-family: 'Oswald', sans-serif;
-      font-weight: bold;
-    }
-
-    .sklhd{
-      position: relative;
-    left: 18%;
-    bottom: 66px;
 }
 
-.vst{
+#chart {
+  width: 0;
+  height: 0;
+  border-radius: 115px;
+  -moz-border-radius: 115px;
+  -webkit-border-radius: 115px;
+
+  position: absolute;
+  left: -51px;
+  top: -40px;
+}
+
+.q2 {
+  border-right: 115px solid white !important;
+  border-top: 115px solid transparent;
+  border-left: 115px solid transparent;
+  border-bottom: 115px solid transparent;
+
+}
+
+.q1 {
+  border-right: 115px solid transparent;
+  border-top: 118px solid white !important;
+  border-left: 115px solid transparent;
+  border-bottom: 115px solid transparent;
+  /* transform: rotate(4deg); */
+
+}
+
+.q4 {
+
+  border-right: 115px solid transparent;
+  border-top: 115px solid transparent;
+  border-left: 115px solid white !important;
+  border-bottom: 115px solid transparent;
+  /* transform: rotate(4deg); */
+
+}
+
+.q3 {
+  border-right: 115px solid transparent;
+  border-top: 115px solid transparent;
+  border-left: 115px solid transparent;
+  border-bottom: 115px solid white;
+  /* transform: rotate(4deg); */
+
+}
+
+.ch2 {
+  position: absolute;
+  left: 8px;
+  border-top: 115px solid red !important;
+}
+
+
+
+
+.c2 {
+  width: 140px;
+  height: 140px;
+  /*     background-color: red; */
+  position: absolute;
+  border-radius: 50%;
+  z-index: 10;
+  border: 20px #37A0BB solid;
+
+}
+
+
+#chart2 {
+  width: 0;
+  height: 0;
+  border-radius: 115px;
+  -moz-border-radius: 115px;
+  -webkit-border-radius: 115px;
+  display: inline-block;
+  position: absolute;
+  left: -22px;
+  top: -23px;
+}
+
+
+.qi2 {
+  border-right: 72px solid white !important;
+  border-top: 72px solid transparent;
+  border-left: 72px solid transparent;
+  border-bottom: 72px solid transparent;
+  transform: rotate(4deg);
+
+
+}
+
+.qi1 {
+  border-right: 72px solid transparent;
+  border-top: 75px solid white !important;
+  border-left: 72px solid transparent;
+  border-bottom: 72px solid transparent;
+  /* transform: rotate(4deg); */
+
+}
+
+.qi4 {
+
+  border-right: 72px solid transparent;
+  border-top: 72px solid transparent;
+  border-left: 75px solid white !important;
+  border-bottom: 72px solid transparent;
+  /* transform: rotate(4deg); */
+
+}
+
+.qi3 {
+  border-right: 72px solid transparent;
+  border-top: 72px solid transparent;
+  border-left: 72px solid transparent;
+  border-bottom: 75px solid white;
+  transform: rotate(4deg);
+
+}
+
+.pjt {
+  position: relative;
+  display: inline-block;
+  top: -177px;
+  left: 35%;
+  z-index: 100;
+  width: 90px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.sklhd {
+  position: relative;
+  left: 18%;
+  bottom: 66px;
+}
+
+.vst {
   position: relative;
   width: 368px;
   left: 17px;
@@ -251,11 +255,11 @@ body{
   margin-bottom: 26px;
 }
 
-.cdbl{
+.cdbl {
   margin-left: 17px !important;
 }
 
-.pimg{
+.pimg {
   background-image: url(dev.jpeg);
   width: 250px;
   height: 250px;
@@ -266,27 +270,27 @@ body{
   left: 16%;
 }
 
-.abt_cnt{
+.abt_cnt {
   min-height: 800px;
 }
 
-.objy{
+.objy {
   width: 93%;
   height: 510px;
   position: absolute;
   top: 44%;
 }
 
-.contct{
+.contct {
   position: absolute;
-    top: 283px;
-    left: 5%;
-    z-index: 10;
-    /* text-align: center; */
-    font-size: 1.5em;
-    font-family: 'Krona One';
-    margin: 8%;
-    line-height: 1.6;
+  top: 283px;
+  left: 5%;
+  z-index: 10;
+  /* text-align: center; */
+  font-size: 1.5em;
+  font-family: 'Krona One';
+  margin: 8%;
+  line-height: 1.6;
 }
 
 @media screen and (min-width: 500px) {
@@ -297,6 +301,57 @@ body{
   }
 }
 
+@media screen and (min-width: 502px) and (max-width: 1400px) {
+  /* body{
+    background-color: red !important;
+  } */
+
+  .col-lg-3 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    max-width: 29.333333%;
+  }
+
+  .col-lg-9 {
+    -ms-flex: 0 0 66.666667% !important;
+    flex: 0 0 66.666667% !important;
+    max-width: 66.666667% !important;
+  }
+
+  .child1 {
+    margin-top: 47% !important;
+  }
+
+  .wrk .rolee {
+    top: 10% !important;
+  }
+
+  body .links {
+    margin: 0px !important;
+    position: relative;
+    left: 58% !important;
+    top: -53px;
+    min-width: 500px !important;
+  }
+
+  .cont_btn {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    top: 80%;
+    left: 67%;
+  }
+  
+}
+
 @media screen and (max-width: 500px) {
   .child1 {
     margin: auto;
@@ -304,37 +359,43 @@ body{
     margin-top: 31rem !important;
 
   }
+
   #main_anim {
     position: absolute;
     width: 100vw !important;
     height: 87vh !important;
     margin-top: 11% !important;
     margin: 1%;
-}
-  #s_logo{
+  }
+
+  #s_logo {
     width: 360px !important;
   }
-  .skill_crd{
+
+  .skill_crd {
     padding-top: 65%;
   }
 
-  @keyframes fill{
-    0%{
-      fill:transparent;
+
+
+  @keyframes fill {
+    0% {
+      fill: transparent;
     }
-    to{
-    fill:#212529;
-    width: 249px;
-    top: 74.4%;
-    left: 39.2%;
+
+    to {
+      fill: #212529;
+      width: 249px;
+      top: 74.4%;
+      left: 39.2%;
     }
   }
 }
 
 @media screen and (max-width: 500px) {
 
-  .cimg{
-   display: none;
+  .cimg {
+    display: none;
   }
 }
 
@@ -356,13 +417,15 @@ body{
   top: 46% !important;
   display: none;
 }
+
 .wrk .role {
   position: absolute;
   top: 54%;
   display: none;
 }
 
-.card:hover .role,.rolee{
+.card:hover .role,
+.rolee {
   display: block;
 }
 
@@ -370,7 +433,7 @@ body{
   display: none;
 }
 
-strong{
+strong {
   text-align: center;
   font-size: 1rem;
   text-transform: uppercase;
@@ -378,47 +441,47 @@ strong{
   margin-bottom: 30px !important;
 }
 
-.cont_btn{
+.cont_btn {
   width: 100vw;
   height: 100vh;
   position: fixed;
   z-index: 1000;
-  top: 86%;
+  top: 84%;
   left: 67%;
-  /* pointer-events: auto; */
 }
-.toggle-btn{
+
+.toggle-btn {
   position: relative;
   border: 5px solid #BB86FC;
-  width:110px;
-  height:60px;
-  background-color:gray;
-  border-radius:35px;
-  transition:all 300ms ease-in-out;
+  width: 110px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 35px;
+  transition: all 300ms ease-in-out;
 }
 
-.toggle-btn > .inner-circle{
+.toggle-btn>.inner-circle {
   padding: 3px;
-    width:50px;
-  height:50px;
-  background-color:white;
-  border-radius:50px;
-    transition:all 300ms ease-in-out;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  transition: all 300ms ease-in-out;
 
 }
 
-.toggle-btn.active{
-  background:#272727;
+.toggle-btn.active {
+  background: #272727;
 }
 
-.toggle-btn.active > .inner-circle{
-margin-left:50px;
+.toggle-btn.active>.inner-circle {
+  margin-left: 50px;
 }
 
-span{
+span {
   font-size: 28px;
-    margin: 2px;
-    cursor: pointer;
+  margin: 2px;
+  cursor: pointer;
   font-family: 'Noto Color Emoji' !important;
 
 }
@@ -427,12 +490,12 @@ span{
   box-shadow: 0px 14px 20px -28px rgba(0, 0, 0, 0.45);
 } */
 
-.nav-link{
+.nav-link {
   margin-right: 20px;
   font-size: 17px;
 }
 
-.dsp{
+.dsp {
   transition: all 0.5s ease-in-out;
   opacity: 0;
   pointer-events: none;
@@ -440,86 +503,88 @@ span{
 
 
 
-#s_logo{
-  animation:fill 0.5s ease forwards 3s;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-#s_logo path:nth-child(1){
-  stroke-dasharray:735;
-  stroke-dashoffset:735;
-  animation:line-anim 2s ease forwards;
+#s_logo {
+  animation: fill 0.5s ease forwards 3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-
-#s_logo path:nth-child(2){
-    stroke-dasharray:791;
-  stroke-dashoffset:791;
-   animation:line-anim 2s ease forwards 0.3s;
-
+#s_logo path:nth-child(1) {
+  stroke-dasharray: 735;
+  stroke-dashoffset: 735;
+  animation: line-anim 2s ease forwards;
 }
 
 
-#s_logo path:nth-child(3){
-    stroke-dasharray:574;
-  stroke-dashoffset:574;
-    animation:line-anim 2s ease forwards 0.6s;
+#s_logo path:nth-child(2) {
+  stroke-dasharray: 791;
+  stroke-dashoffset: 791;
+  animation: line-anim 2s ease forwards 0.3s;
 
 }
 
 
-#s_logo path:nth-child(4){
-    stroke-dasharray:791;
-  stroke-dashoffset:791;
-    animation:line-anim 2s ease forwards 0.9s;
+#s_logo path:nth-child(3) {
+  stroke-dasharray: 574;
+  stroke-dashoffset: 574;
+  animation: line-anim 2s ease forwards 0.6s;
 
 }
 
 
-#s_logo path:nth-child(5){
-    stroke-dasharray:874;
-  stroke-dashoffset:874;
-    animation:line-anim 2s ease forwards 0.12s;
+#s_logo path:nth-child(4) {
+  stroke-dasharray: 791;
+  stroke-dashoffset: 791;
+  animation: line-anim 2s ease forwards 0.9s;
 
 }
 
 
-#s_logo path:nth-child(6){
-    stroke-dasharray:732;
-  stroke-dashoffset:732;
-   animation:line-anim 2s ease forwards 0.15s;
+#s_logo path:nth-child(5) {
+  stroke-dasharray: 874;
+  stroke-dashoffset: 874;
+  animation: line-anim 2s ease forwards 0.12s;
+
 }
 
-@keyframes line-anim{
-  to{
-  stroke-dashoffset:0;
-    
+
+#s_logo path:nth-child(6) {
+  stroke-dasharray: 732;
+  stroke-dashoffset: 732;
+  animation: line-anim 2s ease forwards 0.15s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+
   }
 }
 
 #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 85px;
-  right: 35px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+    display: none;
+    position: fixed;
+    bottom: 112px;
+    right: 44px;
+    z-index: 99;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    width: 3rem;
+    color: black;
 }
 
 #myBtn:hover {
   background-color: #555;
 }
 
-#svv{
+#svv {
   width: 100vw;
   height: 100vh;
   position: absolute !important;
@@ -530,15 +595,15 @@ span{
   /* display: none; */
 }
 
-@keyframes place{
-  to{
+@keyframes place {
+  to {
     opacity: 0;
-  z-index: -10;
+    z-index: -10;
 
   }
 }
 
-#yo{
+#yo {
   display: inline;
   position: absolute;
   top: 72%;
@@ -553,14 +618,8 @@ span{
   padding: 0;
   margin: 0;
 }
-body {
-  min-height: 100vh;
-  background: #f6fafd;
-  /* center the svg in the viewport */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 /* animate bb-8 to rotate and translate horizontally
 ! the group makes it possible to transform the element from the bottom center
@@ -568,9 +627,11 @@ body {
 .bb8-base {
   animation: dash 0.8s infinite alternate cubic-bezier(0.645, 0.045, 0.55, 1);
 }
+
 @keyframes dash {
   to {
-    transform: translate(50px) rotate(-20deg); /* starting values 0 translation -40 rotation */
+    transform: translate(50px) rotate(-20deg);
+    /* starting values 0 translation -40 rotation */
   }
 }
 
@@ -578,27 +639,32 @@ body {
 ! the rotation occurs from the center of the body
 */
 .bb8-center {
-    position: absolute;
+  position: absolute;
   animation: rotate 0.8s infinite linear;
 }
+
 @keyframes rotate {
   to {
     transform: rotate(-360deg);
   }
 }
 
-#yo{
-  animation:frwd 10s infinite linear;
+#yo {
+  animation: frwd 10s infinite linear;
 }
 
-@keyframes frwd{
-  to{
-    transform:translateX(-1600px);
+@keyframes frwd {
+  to {
+    transform: translateX(-1600px);
   }
 }
 
 
 
-.temp{
+.temp {
   display: none;
+}
+
+.pjt{
+  opacity: 0 !important;
 }

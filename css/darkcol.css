@@ -3,6 +3,10 @@ body{
   color: white !important;
 }
 
+body .links a {
+  color: white !important;
+}
+
 .navbar{
   background-color: #272727 !important;
   box-shadow: 0px 0px 24px -5px rgb(0, 0, 0);

@@ -2,15 +2,16 @@
   .main1 {
     width: 100% !important;
   }
-  .temp {
-    height: 100vh;
-  }
   body {
     height: 100%;
   }
   body .container {
     margin-left: 0 !important;
     margin-bottom: 7%;
+  }
+  body #main_anim {
+    position: absolute;
+    bottom: 3% !important;
   }
   body .q_me .nme {
     margin-left: -35px;
@@ -23,6 +24,9 @@
     position: relative;
     left: 29%;
     min-width: 500px !important;
+  }
+  body .links a {
+    color: black !important;
   }
   body #svv {
     display: inline-block !important;
@@ -82,6 +86,13 @@
     width: 41%;
     left: 60%;
     top: -16%;
+    margin-bottom: 26px;
+  }
+  .wrk .wave {
+    position: absolute;
+    width: 41%;
+    left: 60%;
+    top: 4%;
     margin-bottom: 26px;
   }
   .wrk .inst {
@@ -223,9 +234,28 @@
     margin-left: 13% !important;
     margin-top: 14% !important;
   }
+  .abt_cnt .links a {
+    color: white !important;
+  }
   .cont_btn {
-    top: 90%;
+    top: 83%;
     left: 92%;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 131px;
+    right: 44px;
+    z-index: 99;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    width: 3rem;
+    color: black;
   }
 }
 
