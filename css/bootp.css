@@ -9,6 +9,12 @@
   font-family: 'Krona One';
 }
 
+.seemore{
+  font-size: 1.5rem;
+  font-family: 'Krona One';
+  margin-top: 2rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
