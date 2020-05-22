@@ -1,4 +1,4 @@
-@media (min-width: 840px) and (max-width: 1920px) {
+@media (min-width: 1921px) {
   .main1 {
     width: 100% !important;
   }
@@ -85,7 +85,7 @@
     position: absolute;
     width: 41%;
     left: 60%;
-    top: -16%;
+    top: -51%;
     margin-bottom: 26px;
   }
   .wrk .wave {
@@ -97,6 +97,11 @@
   }
   .wrk .inst {
     top: -11% !important;
+    position: absolute;
+    width: 28%;
+    left: 64%;
+    top: -51%;
+    margin-bottom: 26px;
   }
   .wrk .role {
     position: absolute;
@@ -144,7 +149,7 @@
     margin-bottom: 13%;
   }
   .skl .js {
-    margin-bottom: 11%;
+    margin-top: -64px;
   }
   .skl .rad-prog {
     margin-left: 60px;
@@ -193,6 +198,7 @@
   }
   .abt_cnt .container {
     padding: 132px;
+    padding-left: 8%;
     width: 64%;
     margin: auto !important;
     padding-top: 23px;
@@ -210,8 +216,8 @@
   }
   .abt_cnt .pimg {
     background-image: url(dev.jpeg);
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     background-size: cover;
     border: 15px solid #1C1C1C;
     border-bottom: 40px solid #1C1C1C;
@@ -221,7 +227,7 @@
   .abt_cnt .contct {
     position: absolute;
     top: 438px;
-    left: 16%;
+    left: 24%;
     z-index: 10;
     /* text-align: center; */
     font-size: 2rem;
@@ -232,10 +238,13 @@
   }
   .abt_cnt .links {
     margin-left: 13% !important;
-    margin-top: 14% !important;
+    margin-top: 3% !important;
   }
   .abt_cnt .links a {
     color: white !important;
+  }
+  .page-footer {
+    margin-top: 3.4%;
   }
   .cont_btn {
     top: 83%;
@@ -258,67 +267,4 @@
     color: black;
   }
 }
-
-.active .rot1 {
-  -webkit-animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1);
-          animation: spin 3s cubic-bezier(0.8, 0, 0.2, 1);
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(270deg);
-            transform: rotate(270deg);
-  }
-}
-
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(270deg);
-            transform: rotate(270deg);
-  }
-}
-
-.active .rot2 {
-  -webkit-animation: spin2 3s cubic-bezier(0.8, 0, 0.2, 1);
-          animation: spin2 3s cubic-bezier(0.8, 0, 0.2, 1);
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes spin2 {
-  100% {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-  }
-}
-
-@keyframes spin2 {
-  100% {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-  }
-}
-
-.active .rot3 {
-  -webkit-animation: spin3 3s cubic-bezier(0.8, 0, 0.2, 1);
-          animation: spin3 3s cubic-bezier(0.8, 0, 0.2, 1);
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes spin3 {
-  100% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-}
-
-@keyframes spin3 {
-  100% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-}
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=lg_sc.css.map */

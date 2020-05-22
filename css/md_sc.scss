@@ -1,7 +1,8 @@
-$desktop : 840px;
-$desktopLarge:1920px;
+$desktop : 1024px;
+$desktop2 : 1400px;
+
 @mixin desktop {
-  @media (min-width: #{$desktop}) and ( max-width: #{$desktopLarge}) {
+  @media (min-width: #{$desktop}) and (max-width: #{$desktop2}) {
     @content;
   }
 }
@@ -17,6 +18,10 @@ $desktopLarge:1920px;
   body {
     height: 100%;
 
+    .child1 {
+      margin-top: 21rem !important;
+    }
+
     .container {
       margin-left: 0 !important;
       margin-bottom: 7%;
@@ -30,7 +35,7 @@ $desktopLarge:1920px;
     .q_me {
 
       .nme {
-        margin-left: -35px;
+        margin-left: -72px;
       }
 
       .qk {
@@ -79,10 +84,9 @@ $desktopLarge:1920px;
     }
 
     .card-body {
-      padding: 6%;
+      padding: 7%;
       width: 50%;
       text-align: justify;
-
     }
 
     .card-title {
@@ -252,7 +256,7 @@ $desktopLarge:1920px;
 
     .objy {
       width: 100%;
-      height: 609px;
+      // height: 100%;
     }
 
     .container {
@@ -289,7 +293,7 @@ $desktopLarge:1920px;
 
     .contct {
       position: absolute;
-      top: 438px;
+      top: 21rem;
       left: 16%;
       z-index: 10;
       /* text-align: center; */
@@ -301,8 +305,8 @@ $desktopLarge:1920px;
     }
 
     .links {
-      margin-left: 13% !important;
-      margin-top: 14% !important;
+      margin-left: -12rem !important;
+      margin-top: 10rem !important;
 
       a {
         color: white !important;
@@ -331,6 +335,10 @@ $desktopLarge:1920px;
     width: 3rem;
     color: black;
   }
+}
+
+.page-footer {
+  position: absolute;
 }
 
 

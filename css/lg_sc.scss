@@ -1,13 +1,13 @@
-$desktop : 840px;
-$desktopLarge:1920px;
-@mixin desktop {
-  @media (min-width: #{$desktop}) and ( max-width: #{$desktopLarge}) {
+$desktopLarge : 1921px;
+
+
+@mixin desktopLarge {
+  @media (min-width: #{$desktopLarge}) {
     @content;
   }
 }
 
-
-@include desktop {
+@include desktopLarge {
 
   .main1 {
     width: 100% !important;
@@ -110,7 +110,7 @@ $desktopLarge:1920px;
       position: absolute;
       width: 41%;
       left: 60%;
-      top: -16%;
+      top: -51%;
       margin-bottom: 26px;
     }
 
@@ -126,7 +126,14 @@ $desktopLarge:1920px;
 
     .inst {
       top: -11% !important;
+      position: absolute;
+      width: 28%;
+      left: 64%;
+      top: -51%;
+      margin-bottom: 26px;
     }
+
+
 
     .role {
 
@@ -195,7 +202,7 @@ $desktopLarge:1920px;
     }
 
     .js {
-      margin-bottom: 11%;
+      margin-top: -64px;
     }
 
 
@@ -257,6 +264,7 @@ $desktopLarge:1920px;
 
     .container {
       padding: 132px;
+      padding-left: 8%;
       width: 64%;
       margin: auto !important;
       padding-top: 23px;
@@ -278,36 +286,40 @@ $desktopLarge:1920px;
 
     .pimg {
       background-image: url(dev.jpeg);
-      width: 400px;
-      height: 400px;
+      width: 600px;
+      height: 600px;
       background-size: cover;
       border: 15px solid #1C1C1C;
       border-bottom: 40px solid #1C1C1C;
       position: relative;
       left: 36%;
-    }
+  }
 
-    .contct {
-      position: absolute;
-      top: 438px;
-      left: 16%;
-      z-index: 10;
-      /* text-align: center; */
-      font-size: 2rem;
-      font-family: 'Krona One';
-      margin: 8%;
-      color: black;
-      line-height: 1.6;
-    }
+  .contct {
+    position: absolute;
+    top: 438px;
+    left: 24%;
+    z-index: 10;
+    /* text-align: center; */
+    font-size: 2rem;
+    font-family: 'Krona One';
+    margin: 8%;
+    color: black;
+    line-height: 1.6;
+}
 
     .links {
-      margin-left: 13% !important;
-      margin-top: 14% !important;
+        margin-left: 13% !important;
+        margin-top: 3% !important;
 
       a {
         color: white !important;
       }
     }
+  }
+
+  .page-footer{
+    margin-top: 3.4%;
   }
 
   .cont_btn {
@@ -331,43 +343,7 @@ $desktopLarge:1920px;
     width: 3rem;
     color: black;
   }
-}
 
 
-.active {
-  .rot1 {
-    animation: spin 3s cubic-bezier(.8, 0, .2, 1);
-    animation-fill-mode: forwards;
-  }
 
-  @keyframes spin {
-    100% {
-      transform: rotate(270deg);
-    }
-
-  }
-
-  .rot2 {
-    animation: spin2 3s cubic-bezier(.8, 0, .2, 1);
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes spin2 {
-    100% {
-      transform: rotate(90deg);
-    }
-
-  }
-
-  .rot3 {
-    animation: spin3 3s cubic-bezier(.8, 0, .2, 1);
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes spin3 {
-    100% {
-      transform: rotate(180deg);
-    }
-
-  }
 }
