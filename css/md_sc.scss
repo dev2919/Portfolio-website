@@ -74,7 +74,11 @@ $desktop2 : 1400px;
   }
 
 
-
+  .col-lg-3 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 32.333333%;
+    max-width: 58.333333%;
+}
 
   .wrk {
     .card {
@@ -153,6 +157,8 @@ $desktop2 : 1400px;
 
     button {
       display: inline-block;
+      margin-top: 0.8rem;
+      min-width: 7rem !important;
     }
   }
 

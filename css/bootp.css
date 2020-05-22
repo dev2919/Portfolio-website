@@ -9,7 +9,7 @@
   font-family: 'Krona One';
 }
 
-.seemore{
+.seemore {
   font-size: 1.5rem;
   font-family: 'Krona One';
   margin-top: 2rem;
@@ -314,8 +314,8 @@ body {
 
   .col-lg-3 {
     -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 1 0 40.333333%;
+    max-width: 42.333333%;
   }
 
   .col-lg-4 {
@@ -327,10 +327,9 @@ body {
 
   .col-lg-9 {
     -ms-flex: 0 0 66.666667% !important;
-    flex: 0 0 66.666667% !important;
-    max-width: 66.666667% !important;
-  }
-
+    flex: 0 0 51.666667% !important;
+    max-width: 50.666667% !important;
+}
   .child1 {
     margin-top: 47% !important;
   }
@@ -342,8 +341,8 @@ body {
   body .links {
     margin: 0px !important;
     position: relative;
-    left: 58% !important;
-    top: -53px;
+    left: 0% !important;
+    top:1rem;
     min-width: 500px !important;
   }
 
@@ -355,7 +354,7 @@ body {
     top: 80%;
     left: 67%;
   }
-  
+
 }
 
 @media screen and (max-width: 500px) {
@@ -570,20 +569,20 @@ span {
 }
 
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 112px;
-    right: 44px;
-    z-index: 99;
-    font-size: 11px;
-    border: none;
-    outline: none;
-    background-color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-    width: 3rem;
-    color: black;
+  display: none;
+  position: fixed;
+  bottom: 112px;
+  right: 44px;
+  z-index: 99;
+  font-size: 11px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 3rem;
+  color: black;
 }
 
 #myBtn:hover {
@@ -671,6 +670,6 @@ span {
   display: none;
 }
 
-.pjt{
+.pjt {
   opacity: 0 !important;
 }
