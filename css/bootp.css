@@ -51,6 +51,8 @@ body {
 .card-text {
   font-weight: lighter;
   line-height: 2;
+  height: 126px;
+  
 
 }
 
