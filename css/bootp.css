@@ -52,7 +52,7 @@ body {
   font-weight: lighter;
   line-height: 2;
   height: 126px;
-  
+
 
 }
 
@@ -424,6 +424,8 @@ body {
   position: absolute !important;
   top: 46% !important;
   display: none;
+  height: 100%;
+  width: 100%;
 }
 
 .wrk .role {
